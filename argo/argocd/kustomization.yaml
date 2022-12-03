@@ -4,3 +4,4 @@ bases:
 resources:
 - appproject-default.yaml
 - appproject-argo.yaml
+- application-argocd.yaml
