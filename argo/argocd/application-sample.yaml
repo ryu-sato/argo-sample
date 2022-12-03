@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: /test
+    path: /sample
     repoURL: https://github.com/ryu-sato/argo-sample.git
     targetRevision: master
   syncPolicy:
