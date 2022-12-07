@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: sample-sts
+  namespace: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: sample-sts
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: sample-sts
+    spec:
+      containers:
+      - image: nginx
+        imagePullPolicy: Always
+        name: nginx
