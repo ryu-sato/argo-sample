@@ -7,3 +7,4 @@ resources:
 - appproject-argo.yaml
 - application-argocd.yaml
 - application-sample.yaml
+- application-sample-sts.yaml
