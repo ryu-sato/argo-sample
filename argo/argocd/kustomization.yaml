@@ -8,3 +8,4 @@ resources:
 - application-argocd.yaml
 - application-sample.yaml
 - application-sample-sts.yaml
+- application-sample-helm.yaml
